@@ -1,0 +1,99 @@
+<html>
+  <!--CDN -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+    rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <div class="navbar-header">
+                <a href="homepage.php" class="navbar-brand">EscrowPay</a>
+            </div>
+            <div>
+                <ul class = "nav navbar-nav navbar-right">
+                <li><a href="homepage.php">HOME</a></li>
+                <li><a href="ourTeam.php">OUR TEAM</a></li>
+                <li  class="active"><a href="ourServices.php">OUR SERVICES</a></li>
+                <li><a href="contactUs.php">CONTACT US</a></li>
+                <li><a href="signUp.php">SIGN UP</a></li>
+                <li><a href="logIn.php">LOG IN</a></li>
+                </ul>
+            </div> <!-- ending of ul div-->
+        </div> <!-- ending of container fluid dic-->
+    </nav>
+    <div class = "container-fluid"  style = "background-image: url('a1.jpg')">
+        <div class = "row">
+            <div class = "col-md-12 text-center">
+               <h1><font color = "white"> OUR SERVICES</h1>
+            </div>
+        </div>
+            <br>
+            <br><br><br><br>
+        <div class = "row">
+        <blockquote class="col-md-12">
+            Safe and Secure online transactions
+            <footer>Our tie-ups with the state-of-the-art technologies ensures a <br>hassle free and secure oline transactions</footer>
+        </blockquote>
+         </div>
+        <br>
+         <div class = "row">
+        <blockquote class="col-md-12 blockquote-reverse">
+            Dispute interim transactions
+            <footer>Have a dispute that needs to be settled with everything on the table? </footer>
+        </blockquote>
+         </div>
+        <br>
+         <div class = "row">
+        <blockquote class="col-md-12"> 
+            Your safety, our priority
+            <footer>All your important documents drafted in a single <br>location, accessible only to you!</footer>
+        </blockquote>
+         </div>
+        <br>
+         <div class = "row">
+        <blockquote class="col-md-12 blockquote-reverse">
+            Auditing
+            <footer>Our special audit team can provide you with a mock audit, while completely <br>safeguarding your company's rep</footer>
+        </blockquote>
+         </div>
+        <br>
+         <div class = "row">
+        <blockquote class="col-md-12">
+            Peaceful Barter
+            <footer>We realise how messy barter transaction can get which is why <br>we provide you with the uttmost satisfactory in-kind services.</footer>
+        </blockquote>
+        <br>
+          </div>       
+    </div>
+
+<footer>
+      <div class="section">
+      <div class="container-fluid">
+        <div class="row text-bottom">
+          <div class="col-xs-3 text-center">
+            <a href = "https://www.instagram.com/shaunaqnarindra/?hl=en"><i class="fa fa-5x fa-fw fa-instagram"></i></a>
+          </div>
+          <div class="col-xs-3 text-center">
+            <a href="https://twitter.com/shaunaqnarindra"><i class="fa fa-5x fa-fw fa-twitter"></i></a>
+          </div>
+          <div class="col-xs-3 text-center">
+            <a href="https://www.facebook.com/shaunaqnarindra"><i class="fa fa-5x fa-fw fa-facebook"></i></a>
+          </div>
+          <div class="col-xs-3 text-center">
+            <a href="https://www.linkedin.com/in/shaunaq-narindra-179a5647/"><i class="fa fa-5x fa-fw fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+  </body>
+</html>
